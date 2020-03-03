@@ -1,50 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Single Price Grid Component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Single Price Grid Component | Frontend Mentor</title>
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  Join our community
+  <div class="wrapper">
+    <section class="community-side">
+      <h1 class="title large-font">Join our community</h1>
+      <p class="subtitle medium-font">
+        <strong>30-day, hassle-free money back guarantee</strong>
+      </p>
+      <p class="info medium-font">
+        Gain access to our full library of tutorials along with expert code reviews.
+        Perfect for any developers who are serious about honing their skills.
+      </p>
+    </section>
 
-  30-day, hassle-free money back guarantee
+    <div class="price-side">
+      <section class="financial">
+        <h1 class="medium-font">Monthly Subscription</h1>
+        <p calss="medium-font">
+          <span class="digits x-large-font">&dollar;29</span> per month
+        </p>
+        <p class="medium-font">Full access for less than &dollar;1 a day</p>
 
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
+        <button>
+          <strong class="medium-font">Sign Up</strong>
+        </button>
+      </section>
 
-  Monthly Subscription
+      <section class="reasons">
+        <h1 class="medium-font">Why Us</h1>
+        <ul>
+          <li class="small-font">Tutorials by industry experts</li>
+          <li class="small-font">Peer &amp; expert code review</li>
+          <li class="small-font">Coding exercises</li>
+          <li class="small-font">Access to our GitHub repos</li>
+          <li class="small-font">Community forum</li>
+          <li class="small-font">Flashcard decks</li>
+          <li class="small-font">New videos every week</li>
+        </ul>
+      </section>
+    </div>
+  </div>
 
-  &dollar;29 per month
-
-  Full access for less than &dollar;1 a day
-
-  Sign Up
-
-  Why Us
-
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
-  
   <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+    <p class="attribution x-small-font">
+      Challenge by <a
+        href="https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc"
+        target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/rarysson">Rarysson</a>.
     </p>
   </footer>
 </body>
+
 </html>
