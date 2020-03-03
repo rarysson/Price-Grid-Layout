@@ -1,0 +1,136 @@
+:root {
+	--cyan: hsl(179, 62%, 43%);
+	--bright-yellow: hsl(71, 73%, 54%);
+	--light-gray: hsl(204, 43%, 93%);
+	--grayish-blue: hsl(218, 22%, 67%);
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+}
+
+.b1 { background-color: var(--cyan); }
+.b2 { background-color: var(--bright-yellow); }
+.b3 { background-color: var(--light-gray); }
+.b4 { background-color: var(--grayish-blue); }
+
+body {
+	font-family: 'Karla', sans-serif;
+	min-height: 100vh;
+}
+
+.container {
+	min-height: 98vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--light-gray);
+}
+
+.wrapper {
+	width: 40%;
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 10px;
+	box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.1),
+				-3px -3px 30px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper > * {
+	flex: 1 1 100%;
+}
+
+.x-large-font { font-size: 1.8vw; }
+.large-font { font-size: 1.6vw; }
+.medium-font { font-size: 1vw; }
+.small-font { font-size: 0.8vw; }
+.x-small-font { font-size: 0.55vw; }
+
+/* Community side configuration */
+.community-side {
+	background-color: white;
+	padding: 5%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.title {
+	color: var(--cyan);
+	margin-bottom: 2%;
+}
+
+.subtitle {
+	color: var(--bright-yellow);
+	margin-bottom: 1%;
+}
+
+.info {
+	color: var(--grayish-blue);
+}
+/* Community side configuration */
+
+
+
+/* Price side configuration */
+.price-side {
+	display: flex;
+	color: white;
+}
+
+.price-side > * {
+	flex: 1 1 50%;
+	padding: 6% 5% 5%;
+}
+
+.price-side h1 {
+	margin-bottom: 5%;
+}
+
+.financial {
+	background-color: var(--cyan);
+	border-bottom-left-radius: 10px;
+}
+
+.price {
+	margin-bottom: 2%;
+	display: flex;
+	align-items: center;
+}
+
+.price .digits {
+	font-weight: 700;
+	margin-right: 4%;
+}
+
+.price .time {
+	opacity: 0.7;
+}
+
+.financial button {
+	width: 100%;
+	margin-top: 8%;
+	padding: 5% 0;
+	color: white;
+	background-color: var(--bright-yellow);
+	border: none;
+	border-radius: 7px;
+	font-family: 'Karla', sans-serif;
+}
+
+.financial button:hover {
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2),
+				-5px -5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.reasons {
+	border-bottom-right-radius: 10px;
+	background-color: var(--cyan);
+	opacity: 0.75;
+}
+
+.reasons li {
+	opacity: 0.9;
+	margin-bottom: 4px;
+}
+/* Price side configuration */
